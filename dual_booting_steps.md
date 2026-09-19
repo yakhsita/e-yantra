@@ -1,4 +1,4 @@
-# Ubuntu 22.04 Dual-Boot Installation Guide
+# Ubuntu Dual-Boot Installation Guide
 
 Quick reference for installing Ubuntu 22.04.5 LTS alongside Windows using a separate partition.
 
