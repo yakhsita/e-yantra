@@ -670,7 +670,45 @@ Help with math + images + scientific processing
 
 ---
 
-# 21. Installation Status
+## 21. Auto-evaluator
+
+Install:
+
+```bash
+pip3 install -U eyantra-autoeval
+```
+
+If `eyantra-autoeval` says "command not found", add `~/.local/bin` to PATH:
+
+```bash
+echo 'export PATH=$PATH:~/.local/bin' >> ~/.bashrc
+source ~/.bashrc
+```
+
+Check:
+
+```bash
+eyantra-autoeval --help
+```
+
+Final evaluator command:
+
+```bash
+eyantra-autoeval evaluate --year 2026 --theme KD --task 0
+```
+
+Successful final output:
+
+```text
+ROS2 humble is succesfully installed on this system.
+MuJoCo is succesfully installed on this system.
+ros-humble-desktop is succesfully installed on this system.
+Khoj-O-Drone is geared up and ready to take flight ;)...
+```
+
+---
+
+# 22. Installation Status
 
 | Component | Status |
 |---|---|
@@ -692,7 +730,7 @@ Help with math + images + scientific processing
 
 ---
 
-# 22. The Big Picture
+# 23. The Big Picture
 
 The easiest way to remember all of this is:
 
